@@ -11,4 +11,7 @@ int main()
     }
     cin>>x;
     cout<<hash[x]<<endl;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
 }
