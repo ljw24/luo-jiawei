@@ -17,7 +17,7 @@ int main()
 }
 void mai()
 {
-    int n,x,num; //²âÊÔ
+    int n,x,num; //²âÊÔ´úÂë
     map<int, int> hash;
     cin>>n;
     while(cin>>num)
