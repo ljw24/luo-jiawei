@@ -15,3 +15,18 @@ int main()
     cout<<endl;
     cout<<endl;
 }
+void mai()
+{
+    int n,x,num; //²âÊÔ
+    map<int, int> hash;
+    cin>>n;
+    while(cin>>num)
+    {
+        hash[num]++;
+    }
+    cin>>x;
+    cout<<hash[x]<<endl;
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
+}
