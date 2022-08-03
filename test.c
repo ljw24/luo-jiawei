@@ -1,25 +1,17 @@
-
-#include<stdio.h>
-#include<string.h>
-
-void sui()
-{
-  long int a = 0x2356;
-  int b = a&0xFF;
-  int c = a>>8&0xFF;
-  printf("%x\n",b);
-  printf("%x\n",c);
-}
-
+#include <stdio.h>
 int main()
 {
-  long int x = 0x12345678;
-  int y = x&0xFF;
-  int z = x>>8&0xFF;
-  int s = x>>16&0xFF;
-  int c = x>>24&0xFF;
-  printf("%x\n",y);
-  printf("%x\n",z);
-  printf("%x\n",s);
-  printf("%x\n",c);
+  int a[3][3] = {1,2,3,4,5,6,7,8,9};
+  int b[9];
+  int*p = a[0];
+  int cnt = 9;
+  int* dsp = b;
+  while(cnt--)
+  {
+    *dsp++ = *p++;
+  }
+  for(int i=0; i<9; i++)
+  {
+    printf("%d ", b[i]);
+  }
 }
